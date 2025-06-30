@@ -1,0 +1,5 @@
+This year, I’ve made strong contributions to cloud cost optimization and governance by designing automated, scalable solutions using Cloud Custodian within the Asset Governance framework. I built and implemented multiple policies targeting idle and misconfigured resources, and developed a PWN pipeline to automate enforcement and reporting. These efforts reduced manual overhead and improved cost visibility across the organization.
+
+In addition, I led optimization initiatives across GCP and AWS, including BigQuery slot savings through clustering, identifying long-running Dataproc clusters, and initiating discussions with AWS for potential cost reductions in Connect services. I’ve strengthened my skills in policy-as-code, multi-cloud cost architecture, and cross-functional collaboration.
+
+I’m particularly proud of shifting from manual processes to automation-led governance, aligning my work closely with business goals. These experiences have prepared me to take on larger FinOps initiatives and lead strategic cost-efficiency efforts in the future.
