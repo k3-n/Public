@@ -1,1 +1,13 @@
 
+What have you accomplished so far that has had the most impact on your goals?
+This year, I made measurable contributions toward cloud cost optimization by leading initiatives that directly impacted financial governance and operational efficiency. A key highlight was my work on Asset Governance using Cloud Custodian, where I built various policies targeting long-running and idle resources. I also developed an automated PoC pipeline (PWN) to streamline policy execution, tagging, and enforcement across cloud environments, which helped reduce manual oversight and brought consistent cost-saving actions into production.
+In addition, I implemented tactical optimizations like reducing BigQuery slot usage via clustering, monitoring idle Dataproc clusters, and identifying areas for cost negotiation in services such as AWS Connect, contributing to significant projected savings.
+
+What are you most proud of?
+I’m particularly proud of proactively designing scalable and automated governance solutions that align with enterprise-level FinOps goals. Creating the custom Cloud Custodian policies and integrating them into an automation pipeline was a complex but rewarding effort. I also feel proud of how I consistently took initiative—whether by reaching out to vendors for strategic cost discussions, improving tagging hygiene, or sharing my insights with peers to enable broader impact.
+
+What have you learned?
+This year enhanced my skills in cloud cost governance, automation through infrastructure-as-code tools, and scripting for real-world cost-control use cases. I gained practical experience with GCP services like Dataproc, BigQuery, GKE, and asset inventory, as well as Cloud Custodian and tagging strategies for resource traceability. I also sharpened my cross-functional collaboration and learned to navigate ambiguity while maintaining focus on outcomes.
+
+What have you learned that will aid your future growth?
+I’ve learned that building long-term solutions in FinOps requires both technical precision and strategic alignment. The experience of automating governance with Cloud Custodian and driving cost optimization PoCs has prepared me to take on larger initiatives at scale, possibly even leading a FinOps CoE or collaborating on organization-wide cost strategies. I also developed stronger communication and stakeholder management skills that will help me influence decision-making beyond my immediate team.
