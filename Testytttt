@@ -1,22 +1,17 @@
-Hello Sandeep,
+Subject: Clarification Needed on Unattached Disks in Projects
 
-I hope this email finds you well.
+Hi [Recipient’s Name],
 
-We are planning to conduct a Proof of Concept (POC) or testing on the GCP side, and we would appreciate your assistance in a few areas.
+I hope this email finds you well. I’ve been trying to reach you for some time but haven’t been able to connect.
 
-Before creating GCP resources, we wanted to run through the plan with you and provide an overview. Here is what we are planning to do:
-	•	We have created a pipeline in Harness that will identify long-running Dataproc clusters.
-	•	Since the Asset Governance in Harness does not support deletion or stopping actions, we cannot perform these actions directly within Harness.
-	•	Therefore, from the Harness pipeline, we will make direct API calls using a GCP service account to perform necessary actions such as deletion or stopping clusters.
+We have identified some unattached disks from the projects listed below. It appears that you are the point of contact for these projects. Our automation tool, which runs periodically, is designed to identify and delete these unattached volumes.
 
-For testing purposes, we are planning to update labels on Dataproc clusters instead of performing deletion or any other actions that could lead to accidental changes.
+However, upon manual inspection, I noticed that these volumes lack our standard exclusion filter, which we communicated to all teams during the One Day 2.0 modernization. Specifically, the CCM action value should be set to ‘false.’ Instead, I observed labels like “do-not-delete” set to ‘true’ on some disks.
 
-We are currently in touch with the SADA team, who have created a test Dataproc cluster for us in the “bam-metrics-dev” project.
+Could you please confirm if these disks should indeed be retained? If you wish to exclude them from our automation, you can apply the appropriate exclusion label.
 
-We need your help in creating a service account in our GCP FinOps-as-a-Service project. This service account will have the necessary permissions to update labels on Dataproc clusters and will reside in the GCP FinOps-as-a-Service project. It will perform actions on the “bam-metrics” project.
+Please let me know your preference at your earliest convenience. If you have any questions or need further clarification, feel free to reach out.
 
-For authentication between Harness and GCP, we plan to use OIDC connection type.
+Thank you for your attention to this matter.
 
-Please let me know if you have any questions or need further details.
-
-Thank you for your support!
+Best regards,
